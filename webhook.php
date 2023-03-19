@@ -87,8 +87,8 @@ function imagesViaWebhook($images)
     unset($images);
 
     $client = new GuzzleHttp\Client([
-        'timeout' => 10,
-        'retries' => 2,
+        'timeout' => 1000,
+        'retries' => 3,
         'delay' => 5000,
         // 'http_errors' => false,
         'verify' => false,
