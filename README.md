@@ -21,5 +21,6 @@ const DISCORD_TOKEN = 'YOUR_TOKEN_HERE';
 ## Usage
 
 ```
+php sqlite.php
 php discord.php
 ```
