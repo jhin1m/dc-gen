@@ -1,6 +1,6 @@
 # DC Generator
 
-Remember delete composer.lock and composer.json, i just accidently forget put it in ignore file...
+Remember delete composer.lock and composer.json then ```composer install``` again, i just accidently forget put it in ignore file...
 
 ## Install SQLite3 for Linux/Ubuntu
 
